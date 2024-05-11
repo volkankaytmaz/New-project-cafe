@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sadettin Cafe</title>
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logoo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="urunler.html">Ürünler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                    <a class="hero-btn lgn" href="login.html">Giriş Yap</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" aria-hidden="true"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Sadettin Cafe</h1><br>
+            <p>Sadettin Cafe sizlere dilediğiniz her ürünü , her yemeği en kaliteli , en iyi ve en lezzetli şekilde sunar.</p>
+            <a class="hero-btn" onclick="window.location.href='#go'">Daha Fazla</a>
+        </div>
+    </section>
+
+
+    <section class="kategori" id="go">
+        <h1>Neler Sunuyoruz ?</h1>
+        <p>Sadettin Cafe olarak siz değerli müşterilerimize neler sunuyoruz.</p>
+        <a href="urunler.html" style="text-decoration: white";">
+            <div class="row">
+                <div class="kategori-col icecekler">
+                    <br>
+                    <h3>İçecekler</h3>
+                    <p>Siz değerli müşterilerimiz için sıcak ve soğuk olmak üzere
+                        bol çeşitli güzel ve kaliteli meşrubatlar sunar.
+                    </p>
+                </div>
+                <div class="kategori-col yemekler">
+                    <br>
+                    <h3>Yemekler</h3>
+                    <p>İsterseniz ana yemek , isterseniz aperatif şeklinde
+                        bir çok yemek çeşidini sizlere en iyi şekilde
+                        sunuyoruz.
+                    </p>
+                </div>
+                <div class="kategori-col tatlilar">
+                    <br>
+                    <h3>Tatlılar</h3>
+                    <p>Şerbetli , sütlü ve her türlü tatlı türleri 
+                        en lezzetli ve en taze şekilde sizlere 
+                        sunuyoruz.
+                    </p>
+                </div>
+            </div> 
+            
+    </a>
+    </section>
+
+    <section class="urun">
+        <h1>Ürünlerimiz</h1>
+        <p>Siz değerli müşterilerimize sunduğumuz ürünler.</p>
+
+        <div class="row">
+            <div class="urun-col">
+                <img src="images/urun1.jpg" alt="">
+                <div class="layer">
+                    <h3>Latte</h3>
+                </div>
+            </div>
+            <div class="urun-col">
+                <img src="images/urun2.jpg" alt="">
+                <div class="layer">
+                    <h3>Limonata</h3>
+                </div>
+            </div>
+            <div class="urun-col">
+                <img src="images/urun3.jpg" alt="">
+                <div class="layer">
+                    <h3>Pizza</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="yorum">
+        <h1>Müşteri Yorumları</h1>
+        <p>Cafemizi deneyimleyen müşterilerimizin cafemiz hakkında yorumları</p>
+        <div class="row">
+            <div class="yorum-col">
+                <img src="images/yorum.png">
+                <div>
+                    <p>Cafeyi bir kaç kere deneyimleme şansım oldu bütün 
+                        gidişlerimde aynı şekilde hizmet verdiler 
+                        ürünleri lezzetli ve taze herkese tavsiye ederim.
+                    </p>
+                    <h3>&nbsp; Sadettin Teksoy</h3>
+                    &nbsp;&nbsp;<i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    
+                </div>
+            </div>
+            <div class="yorum-col">
+                <img src="images/yorum.png">
+                <div>
+                    <p>Cafe gayet hoş bir mekana sahip çalışanlarda aynı 
+                        şekilde çok iyi ve çok anlayışlılar.Verdikleri 
+                        hizmet içinde ayrıca teşekkür ederim.
+                    </p>
+                    <h3>&nbsp; Onur Bektaşlı</h3>
+                    &nbsp;&nbsp;<i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Sadettin Cafe</h4>
+        <p>Sadettin Cafe olarak siz değerli müşterilerimize en iyi şekilde en kaliteli hizmeti sunmayı verdiğimiz
+             <br>ürünlerin kalitesini en yüksekte tutmayı kendimize misyon edinmekten gurur duyuyoruz.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p> Copyright © 2024 Sadettin Cafe</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-250px";
+        }
+    </script>
+</body>
+</html>
